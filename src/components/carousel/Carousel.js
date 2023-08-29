@@ -4,21 +4,21 @@ import { UncontrolledCarousel } from 'reactstrap';
 const items = [
   {
     src: './images/HamPiz.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1',
-    header: 'Slide 1 Header'
+    altText: 'Antojo de Hamburguesa?',
+    caption: 'Ver ubicaciones',
+    header: 'Antojo de Hamburguesa?'
   },
   {
     src: './images/Tacos.jpg',
-    altText: 'Slide 2',
-    caption: 'Slide 2',
-    header: 'Slide 2 Header'
+    altText: 'Antojo de unos tacos?',
+    caption: 'Ver ubicaciones',
+    header: 'Antojo de unos tacos?'
   },
   {
     src: './images/Pizza.jpg',
-    altText: 'Slide 3',
-    caption: 'Slide 3',
-    header: 'Slide 3 Header'
+    altText: 'Antojo de una pizza?',
+    caption: 'Ver ubicaciones',
+    header: 'Antojo de una pizza?'
   }
 ];
 
