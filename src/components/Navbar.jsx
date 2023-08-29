@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
-
+import Carousel from '../carousel/Carousel'
 function Navbar() {
 
   const [clicked, setClicked] = useState(false)
@@ -10,7 +10,8 @@ function Navbar() {
     setClicked(!clicked)
   }
   return (
-    <>
+    <div>
+        <Carousel />  
       <NavContainer>
         <h2>Navbar <span>CI</span></h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
@@ -26,7 +27,7 @@ function Navbar() {
         </div>
         <BgDiv className={`initial ${clicked ? ' active' : ''}`}></BgDiv>
       </NavContainer>
-    </>
+    </div>
   )
 }
 

@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './components/navegacion/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Combos from './components/paginas/Combos';
+import Carousel from './components/carousel/Carousel'
+
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
 <Router>
   <Navbar/>
 </Router>
-
+<Carousel />
    </div>
 
 
